@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -8,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
-
 <body>
 
-    <div class="container border bg-success-subtle mt-4 mb-3 p-5 shadow rounded-4 p-4" id="main-div " style="height: 800px;">
+    
+    <div class="container border bg-success-subtle mt-4 mb-3 p-5 shadow rounded-4 p-4" id="main-div" style="height: 800px;">
 
 
         <header id="head">
@@ -48,47 +46,44 @@
                 </div>
 
                 <div class="progress mb-4" style="height: 6px;">
-                    <div class="progress-bar bg-success " style="width: 33%;"></div>
+                    <div class="progress-bar bg-success " style="width: 99%;"></div>
                 </div>
 
 
+                <label for="adhar">Aadhaar:</label>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Full legal name">
+                    <input type="text" class="form-control" placeholder="Your Aadhaar no." id="adhar">
 
 
                 </div>
 
+                <label for="panc">Pan:</label>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Email address">
+                    <input type="text" class="form-control" placeholder="Your Pan No." id="panc">
+
+
+                </div>
+
+                <label for="dl">Driving Lisence:</label>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="DL No." id="dl">
 
 
                 </div>
 
 
-                <label for="mobile">Mobile number:</label>
-                <div class=" input-group">
 
-                    <span class="input-group-text">+91</span>
-                    <input type="number" class="form-control" placeholder="Mobile number" id="mobile">
+                
 
 
-                </div>
-
-                <label for="pan">pan:</label>
-                <div class=" input-group">
-
-                    <span class="input-group-text"> <img src="./assets/pan.jpg" alt="pan" style="height: 20px; width: 25px;"> </span>
-                    <input type="number" class="form-control" placeholder="ABCDE1234F" id="pan">
-
-
-                </div>
+                
 
 
                 <div class="d-flex justify-content-between mt-4">
 
-                    <button class="btn  disabled">Back</button>
+                    <button class="btn  btn-outline "><a href="index2.html" class="text-secondary text-decoration-none ">back</a></button>
 
-                    <button class="btn btn-success px-4"> <a href="page2.html" class="text-white text-decoration-none">continue</a></button>
+                    <button class="btn btn-success px-4">Submit</button>
 
 
 
@@ -137,9 +132,6 @@
 
     </div>
 
-
-
+    
 </body>
-
-
 </html>
